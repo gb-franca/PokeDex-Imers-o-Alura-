@@ -15,4 +15,5 @@ Navegue por uma seleção curada de Pokémon, de 1 a 649, com dados sempre atual
 Acesse agora e expanda seu conhecimento sobre o mundo Pokémon com uma ferramenta fácil de usar e repleta de informações valiosas. Não perca a chance de se conectar com seus Pokémon favoritos e explorar novas descobertas!
 
 Experimente a Pokédex Interativa e comece sua jornada Pokémon hoje mesmo! 🚀
-https://gb-franca.github.io/PokeDex/
+ https://gb-franca.github.io/PokeDex-Imersao-alura/
+ 
