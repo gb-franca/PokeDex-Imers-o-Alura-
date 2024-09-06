@@ -17,4 +17,8 @@ CSS3: Estilização do layout.
 JavaScript: Lógica de busca e renderização dos dados dos Pokémon.
 PokéAPI: API utilizada para obter os dados dos Pokémon em tempo real.
 
+🔗 API Utilizada
+PokéAPI - Fonte dos dados dos Pokémon.
+
+
  
