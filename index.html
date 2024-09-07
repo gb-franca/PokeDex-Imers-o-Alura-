@@ -11,39 +11,47 @@
 
 <body>
     <main>
+        <!-- Título da Pokedex -->
+        <header>
+            <h1 class="main-title">Pokédex Interativa</h1>
+            <p class="instructions">
+                Bem-vindo à nossa Pokédex interativa! Aqui você pode explorar os detalhes de diversos Pokémon. 
+                Utilize o campo de busca para encontrar seu Pokémon favorito pelo nome ou número. 
+                Navegue usando os botões "Prev" e "Next" para alternar entre os Pokémon.
+            </p>
+        </header>
+    
         <img src="#" alt="pokemon" class="pokemon-image">
-
+    
         <h1 class="pokemon-data">
             <span class="pokemon-number"></span>
             <span class="pokemon-name"></span>
         </h1>
-
+    
         <div class="pokemon-types">
             <!-- Tipos serão injetados aqui via JavaScript -->
         </div>
-
+    
         <section class="pokemon-description">
             <p class="description-text"></p>
         </section>
-
+    
         <section class="pokemon-moves">
             <h2>Moves:</h2>
             <ul class="moves-list"></ul>
         </section>
-
-
+    
         <form class="form">
-            <input type="search" class="input-search" placeholder="Name or Number" required>
+            <input type="search" class="input-search" placeholder="Nome ou Número" required>
         </form>
-
+    
         <div class="buttons">
             <button class="button btn-prev">&lt; Prev</button>
             <button class="button btn-next">Next &gt;</button>
         </div>
-
-
     </main>
     
+
     <footer class="footer">
         <p>Desenvolvido por Gabriel França &copy; 2024</p>
         <p><a href="https://github.com/gb-franca/PokeDex-Imersao-alura">GitHub do Projeto</a></p>
