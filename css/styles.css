@@ -37,15 +37,36 @@ main {
   max-width: 600px;
   background-color: #2f2f2f;
   padding: 20px;
+  margin-bottom: 2%;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
+
+/* Estilo para o título principal */
+.main-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Estilo para a seção de instruções */
+.instructions {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+
 .pokemon-image {
-  width: 30%;
-  height: 30%;
-  margin-left: 35%;
-  margin-bottom: 25px;
+  width: 22%;
+  height: 22%;
+  margin-left: 38%;
+  margin-bottom: 0;
 }
 
 .pokemon-data {
@@ -72,7 +93,7 @@ main {
 
 .input-search {
   width: 100%;
-  padding: 4%;
+  padding: 3%;
   outline: none;
   border: 2px solid #333;
   border-radius: 5px;
@@ -111,8 +132,8 @@ main {
 }
 
 .pokemon-moves h2 {
- text-align: center;
- color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 .pokemon-moves {
@@ -136,32 +157,40 @@ main {
   color: #444;
   font-weight: 600;
   text-align: center;
-  background-color: #fff; /* Cor de fundo padrão para os movimentos */
+  background-color: #fff;
+  /* Cor de fundo padrão para os movimentos */
   border: 2px solid #333;
   box-shadow: -2px 3px 0 #222, -4px 6px 0 #888;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
-}
-
 .button {
-  width: 45%;
-  padding: 4%;
+  width: 40%;
+  /* Reduz a largura dos botões */
+  padding: 2%;
+  /* Reduz o preenchimento interno */
   border: 2px solid #333;
   border-radius: 5px;
-  font-size: clamp(5px, 5vw, 1rem);
+  font-size: clamp(10px, 3vw, 1rem);
+  /* Ajusta o tamanho da fonte */
   font-weight: 600;
   color: #444;
   background-color: white;
   box-shadow: -2px 3px 0 #444, -4px 6px 0 #888;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* Adiciona espaço entre os botões */
+}
+
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  /* Tamanho do texto ao clicar */
 }
+
 
 footer.footer {
   position: fixed;
@@ -175,7 +204,8 @@ footer.footer {
   font-size: 1rem;
   border-top: 2px solid #333;
   box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
-  z-index: 1; /* Para garantir que o footer fique acima de outros elementos */
+  z-index: 1;
+  /* Para garantir que o footer fique acima de outros elementos */
 }
 
 footer.footer a {
@@ -188,4 +218,155 @@ footer.footer a:hover {
   text-decoration: underline;
 }
 
+
+@media (max-width: 768px) {
+
+  /* Reduz o tamanho da caixa principal */
+  main {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  /* Ajusta o título principal */
+  .main-title {
+    font-size: 2rem;
+  }
+
+  /* Ajusta o tamanho do texto das instruções */
+  .instructions {
+    display: none;
+  }
+
+  /* Reduz o tamanho da imagem do Pokémon */
+  .pokemon-image {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+  }
+
+  /* Ajusta o tamanho dos dados do Pokémon */
+  .pokemon-data {
+    font-size: 1.2rem;
+  }
+
+  .pokemon-name {
+    font-size: 1.5rem;
+  }
+
+  .pokemon-number {
+    font-size: 1rem;
+  }
+
+  /* Ajusta o input de busca */
+  .input-search {
+    font-size: clamp(8px, 5vw, 0.9rem);
+  }
+
+  /* Ajusta o layout dos tipos de Pokémon */
+  .pokemon-types {
+    gap: 5px;
+  }
+
+  .pokemon-type {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  /* Ajusta a descrição do Pokémon */
+  .pokemon-description {
+    font-size: 18px;
+  }
+
+  /* Ajusta o layout dos movimentos */
+  .moves-list li {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* Ajusta os botões de navegação */
+  .button {
+    width: 45%;
+    padding: 3%;
+    font-size: clamp(10px, 4vw, 0.9rem);
+  }
+
+  /* Ajusta o footer para dispositivos menores */
+  footer.footer {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* Ajusta o título principal */
+  .main-title {
+    font-size: 2.2rem;
+  }
+
+  /* Ajusta o tamanho do texto das instruções */
+  .instructions {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+
+  /* Ajusta o tamanho da imagem do Pokémon */
+  .pokemon-image {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+  }
+
+  /* Ajusta o tamanho dos dados do Pokémon */
+  .pokemon-data {
+    font-size: 1.4rem;
+  }
+
+  .pokemon-name {
+    font-size: 1.8rem;
+  }
+
+  .pokemon-number {
+    font-size: 1.1rem;
+  }
+
+  /* Ajusta o input de busca */
+  .input-search {
+    font-size: clamp(8px, 5vw, 1rem);
+  }
+
+  /* Ajusta o layout dos tipos de Pokémon */
+  .pokemon-types {
+    gap: 8px;
+  }
+
+  .pokemon-type {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+  }
+
+  /* Ajusta a descrição do Pokémon */
+  .pokemon-description {
+    font-size: 20px;
+  }
+
+  /* Ajusta o layout dos movimentos */
+  .moves-list li {
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  /* Ajusta os botões de navegação */
+  .button {
+    width: 45%;
+    padding: 3%;
+    font-size: clamp(10px, 4vw, 1rem);
+  }
+
+  /* Ajusta o footer para tablets */
+  footer.footer {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
 
