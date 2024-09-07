@@ -1,24 +1,30 @@
-Pokédex Interativa
-Bem-vindo à Pokédex Interativa! Este projeto foi desenvolvido para fornecer uma experiência imersiva e informativa sobre os Pokémon, permitindo que os usuários explorem detalhes essenciais de Pokémon de uma forma simples e intuitiva.
+<h1>Pokédex Web Project</h1>
+<h2>Descrição</h2>
 
-📋 Funcionalidades
-Busca por Nome ou Número: Permite buscar Pokémon facilmente pelo nome ou número na Pokédex.
-Imagens Animadas: Visualize imagens dinâmicas e animadas dos Pokémon em alta qualidade.
-Detalhes dos Pokémon: Exibe informações como nome, número, tipos e uma breve descrição.
-Navegação Simples: Botões para navegar entre os Pokémon de forma rápida e eficiente.
-Movimentos com Cores Personalizadas: Exibe os quatro principais movimentos de cada Pokémon com o fundo colorido de acordo com o tipo do movimento.
-Limitação: Inclui uma seleção de Pokémon do número 1 até 649.
-🚀 Demonstração
- https://gb-franca.github.io/PokeDex-Imersao-alura/
+<p>Este projeto é uma Pokédex web que permite aos usuários pesquisar e visualizar informações sobre Pokémon. O site apresenta uma interface responsiva e elegante com uma variedade de funcionalidades, incluindo a exibição de tipos de Pokémon, movimentos e descrições detalhadas. A aplicação é projetada para oferecer uma experiência de usuário intuitiva e informativa.</p>
 
-🛠️ Tecnologias Utilizadas
-HTML5: Estrutura do projeto.
-CSS3: Estilização do layout.
-JavaScript: Lógica de busca e renderização dos dados dos Pokémon.
-PokéAPI: API utilizada para obter os dados dos Pokémon em tempo real.
+<h2>📋 Funcionalidades</h2>
+<ul>
+	<li>Pesquisa de Pokémon: Campo de busca para localizar Pokémon por nome ou número.</li>
+	<li>Detalhes do Pokémon: Exibição de informações como nome, número, tipos e descrição.</li>
+	<li>Movimentos: Lista de movimentos do Pokémon com tipos destacados.</li>
+ 	<li>Design Responsivo: Adaptação para diferentes tamanhos de tela, incluindo dispositivos móveis e tablets.</li>
+</ul>
 
-🔗 API Utilizada
-PokéAPI - Fonte dos dados dos Pokémon.
+<h2>🚀 Demonstração</h2>
+<p><a href="https://gb-franca.github.io/PokeDex-Imersao-alura/">Pokédex Web</a></p>
+
+<h2>🛠️ Tecnologias Utilizadas</h2>
+<ul>
+ <li>HTML5: Estrutura do projeto.</li>
+ <li>CSS3: Estilização do layout.</li>
+ <li>JavaScript: Lógica de busca e renderização dos dados dos Pokémon.</li>
+ <li>PokéAPI: API utilizada para obter os dados dos Pokémon em tempo real.</li>
+</ul>
+
+
+<h2>🔗 API Utilizada</h2>
+<p><a href="https://pokeapi.co">PokéAPI - Fonte dos dados dos Pokémon.</a></p>
 
 
  
