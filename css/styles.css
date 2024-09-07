@@ -162,3 +162,29 @@ main {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
+
+footer.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2f2f2f;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  border-top: 2px solid #333;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 1; /* Para garantir que o footer fique acima de outros elementos */
+}
+
+footer.footer a {
+  color: #78C850;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer.footer a:hover {
+  text-decoration: underline;
+}
+
